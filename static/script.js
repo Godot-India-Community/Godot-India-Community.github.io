@@ -113,6 +113,22 @@ async function renderResources() {
     `).join('');
 }
 
+// Render FAQs
+async function renderFaqs() {
+    const data = await loadJSON('/data/faq.json');
+    if (!data) return;
+
+    const container = document.querySelector('.faq-container');
+    if (!container) return;
+
+    container.innerHTML = data.map(item => `
+        <div class="card faq-card">
+            <h3>${item.question}</h3>
+            <p>${item.answer}</p>
+        </div>
+    `).join('');
+}
+
 // Mobile navigation toggle
 document.addEventListener('DOMContentLoaded', async function() {
     try {
@@ -144,6 +160,9 @@ document.addEventListener('DOMContentLoaded', async function() {
         }
         if (document.querySelector('.resources-tbody')) {
             await renderResources();
+        }
+        if (document.querySelector('.faq-container')) {
+            await renderFaqs();
         }
     } catch (error) {
         console.error('Error loading page:', error);
