@@ -1,6 +1,5 @@
 highlighter: rouge
 plugins:
-  - jekyll-feed
   - jekyll-sitemap
 timezone: Asia/Kolkata
 title: Godot India Community
@@ -15,4 +14,3 @@ social:
     - https://www.youtube.com/channel/UCa8wFew-M5DxSvDNbM-1zOw
     - https://chat.whatsapp.com/JmpKNJq1cMMFSCAXAY9O3j
 
-permalink: /:title
