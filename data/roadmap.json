@@ -1,16 +1,9 @@
 [
   {
-    "number": "01",
-    "title": "GIC Game Jam 1",
-    "date": "January 2025",
-    "description": "Kickstart the year with our first game jam",
-    "position": "left"
-  },
-  {
-    "number": "02",
-    "title": "GIC Game Jam 2",
-    "date": "March 2025",
-    "description": "Spring into action with creative challenges",
+    "number": "04",
+    "title": "GIC Game Jam 4",
+    "date": "October 2025",
+    "description": "Close the year with our biggest jam yet",
     "position": "right"
   },
   {
@@ -21,10 +14,18 @@
     "position": "left"
   },
   {
-    "number": "04",
-    "title": "GIC Game Jam 4",
-    "date": "October 2025",
-    "description": "Close the year with our biggest jam yet",
+    "number": "02",
+    "title": "GIC Game Jam 2",
+    "date": "March 2025",
+    "description": "Spring into action with creative challenges",
     "position": "right"
+  },
+  {
+    "number": "01",
+    "title": "GIC Game Jam 1",
+    "date": "January 2025",
+    "description": "Kickstart the year with our first game jam",
+    "position": "left"
   }
 ]
+
