@@ -1,26 +1,20 @@
 [
   {
-    "title": "GIC Game Jam 3 Results",
-    "description": "Watch the game jam results showcase",
-    "url": "https://youtu.be/UxeStuoaErY",
-    "thumbnail": "https://img.youtube.com/vi/UxeStuoaErY/maxresdefault.jpg"
-  },
-  {
     "title": "Last Terminal",
     "description": "Featured game by the community",
     "url": "https://pixel-bay.itch.io/last-terminal",
     "thumbnail": "https://img.itch.zone/aW1nLzIyNDU5MjMzLmpwZWc=/original/8hPj%2BT.jpeg"
   },
   {
-    "title": "Featured on Godot News",
-    "description": "GIC's first weekend jam recognized by the official Godot community",
-    "url": "https://godot.news/archive/5411325a-1074-44f2-ab67-22233c459835",
-    "thumbnail": "https://godot.news/uploads/cupcakes.jpg"
-  },
-  {
     "title": "SuperPacker",
     "description": "An idle game about packing absurd amount of boxes",
     "url": "https://store.steampowered.com/app/3926560/SuperPacker/",
     "thumbnail": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3926560/2f7b79c1954bc9337ed4887a59bf735ddf24a906/header.jpg?t=1760102685"
+  },
+  {
+    "title": "Featured on Godot News",
+    "description": "GIC's first weekend jam recognized by the official Godot community",
+    "url": "https://godot.news/archive/5411325a-1074-44f2-ab67-22233c459835",
+    "thumbnail": "https://godot.news/uploads/cupcakes.jpg"
   }
 ]
