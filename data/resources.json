@@ -1,0 +1,68 @@
+[
+    
+    {
+        "name": "GitHub - Hello World",
+        "notes": "Introduction to GitHub for beginners",
+        "link": "https://docs.github.com/en/get-started/start-your-journey/hello-world"
+    },
+    {
+        "name": "Git and GitHub Learning Resources",
+        "notes": "Official GitHub learning resources",
+        "link": "https://docs.github.com/en/get-started/start-your-journey/git-and-github-learning-resources"
+    },
+    {
+        "name": "Git Tutorial for Beginners",
+        "notes": "Video tutorial for Git and GitHub",
+        "link": "https://youtu.be/HkdAHXoRtos?si=JSVIBpGpwj0-n-a6"
+    },
+    {
+        "name": "itch.io - Getting Started",
+        "notes": "Guide for creators on itch.io platform",
+        "link": "https://itch.io/docs/creators/getting-started"
+    },
+    {
+        "name": "Awesome Godot",
+        "notes": "Curated list of Godot resources, plugins, and tools",
+        "link": "https://github.com/godotengine/awesome-godot"
+    },
+    {
+        "name": "Brackeys - 2D Game Tutorial",
+        "notes": "Comprehensive 2D game development tutorial",
+        "link": "https://youtu.be/LOhfqjmasi0"
+    },
+    {
+        "name": "Brackeys - 3D Game Tutorial",
+        "notes": "Comprehensive 3D game development tutorial",
+        "link": "https://youtu.be/Cy0CpQnjfUA?si=Z0VAyT2Kc5iN8V30"
+    },
+    {
+        "name": "Basic Principles of Game Design",
+        "notes": "Fundamental concepts of game design",
+        "link": "https://youtu.be/G8AT01tuyrk"
+    },
+    {
+        "name": "Game Developer Roadmap",
+        "notes": "Complete roadmap for game developers",
+        "link": "https://roadmap.sh/game-developer"
+    },
+    {
+        "name": "GDQuest",
+        "notes": "Free and open-source Godot tutorials, courses, and game creation resources",
+        "link": "https://www.gdquest.com/"
+    },
+    {
+        "name": "Brackeys YouTube Channel",
+        "notes": "Popular game development YouTube channel with beginner-friendly tutorials",
+        "link": "https://www.youtube.com/@Brackeys"
+    },
+    {
+        "name": "Lukky YouTube Channel",
+        "notes": "Game development tutorials and resources",
+        "link": "https://www.youtube.com/@lukky."
+    },
+    {
+        "name": "Godot Documentation - Step by Step",
+        "notes": "Official Godot Engine documentation for getting started",
+        "link": "https://docs.godotengine.org/en/stable/getting_started/step_by_step/index.html"
+    }
+]

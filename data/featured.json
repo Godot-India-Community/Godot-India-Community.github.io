@@ -1,0 +1,20 @@
+[
+  {
+    "title": "GIC Game Jam 3 Results",
+    "description": "Watch the game jam results showcase",
+    "url": "https://youtu.be/UxeStuoaErY",
+    "thumbnail": "https://img.youtube.com/vi/UxeStuoaErY/maxresdefault.jpg"
+  },
+  {
+    "title": "Last Terminal",
+    "description": "Featured game by the community",
+    "url": "https://pixel-bay.itch.io/last-terminal",
+    "thumbnail": "https://img.itch.zone/aW1nLzIyNDU5MjMzLmpwZWc=/original/8hPj%2BT.jpeg"
+  },
+  {
+    "title": "Featured on Godot News",
+    "description": "GIC's first weekend jam recognized by the official Godot community",
+    "url": "https://godot.news/archive/5411325a-1074-44f2-ab67-22233c459835",
+    "thumbnail": "https://godot.news/uploads/cupcakes.jpg"
+  }
+]
