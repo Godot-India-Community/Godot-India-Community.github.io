@@ -1,0 +1,16 @@
+highlighter: rouge
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+timezone: Asia/Kolkata
+title: Godot India Community
+description: A community that cherishes Godot Engine & helps individuals in learning.
+image: https://avatars.githubusercontent.com/u/70940225?s=200&v=4
+author: Godot India Community
+social:
+  name: Godot India Community
+  links:
+    - https://discord.gg/Kmw8jn7c5D
+    - https://t.me/godotindia
+    - https://www.youtube.com/channel/UCa8wFew-M5DxSvDNbM-1zOw
+    - https://chat.whatsapp.com/JmpKNJq1cMMFSCAXAY9O3j
