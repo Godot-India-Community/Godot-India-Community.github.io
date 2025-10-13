@@ -42,7 +42,7 @@ async function loadJSON(dataPath) {
 
 // Render featured content
 async function renderFeatured() {
-    const data = await loadJSON('data/featured.json');
+    const data = await loadJSON('/data/featured.json');
     if (!data) return;
 
     const container = document.querySelector('.grid');
@@ -59,7 +59,7 @@ async function renderFeatured() {
 
 // Render announcements
 async function renderAnnouncements() {
-    const data = await loadJSON('data/announcements.json');
+    const data = await loadJSON('/data/announcements.json');
     if (!data) return;
 
     const container = document.querySelector('.announcements-container');
@@ -77,7 +77,7 @@ async function renderAnnouncements() {
 
 // Render roadmap
 async function renderRoadmap() {
-    const data = await loadJSON('data/roadmap.json');
+    const data = await loadJSON('/data/roadmap.json');
     if (!data) return;
 
     const container = document.querySelector('.roadmap-timeline');
@@ -98,7 +98,7 @@ async function renderRoadmap() {
 
 // Render resources
 async function renderResources() {
-    const data = await loadJSON('data/resources.json');
+    const data = await loadJSON('/data/resources.json');
     if (!data) return;
 
     const tbody = document.querySelector('.resources-tbody');
@@ -119,8 +119,8 @@ document.addEventListener('DOMContentLoaded', async function() {
         showLoader();
 
         // Load components
-        await loadComponent('nav-container', 'components/nav.html');
-        await loadComponent('footer-container', 'components/footer.html');
+        await loadComponent('nav-container', '/components/nav.html');
+        await loadComponent('footer-container', '/components/footer.html');
 
         // Mobile navigation toggle (must be after nav is loaded)
         const navToggle = document.querySelector('.nav-toggle');
