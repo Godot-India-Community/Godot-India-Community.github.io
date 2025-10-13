@@ -16,7 +16,3 @@ social:
     - https://chat.whatsapp.com/JmpKNJq1cMMFSCAXAY9O3j
 
 permalink: /:title
-
-collections:
-  announcements:
-    output: true
