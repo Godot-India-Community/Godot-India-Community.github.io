@@ -31,7 +31,16 @@
 
     <section class="container">
         <h1 class="text-center">Announcements</h1>
-        <div class="announcements-container"></div>
+        <div class="announcements-container">
+            {% for announcement in site.announcements %}
+                <div class="announcement">
+                    <h3>{{ announcement.title }}</h3>
+                    <p class="date">{{ announcement.date | date: "%B %d, %Y" }}</p>
+                    <p>{{ announcement.description }}</p>
+                    <a href="{{ announcement.link }}" target="_blank">{{ announcement.linkText }}</a>
+                </div>
+            {% endfor %}
+        </div>
     </section>
 
     <div id="footer-container"></div>
