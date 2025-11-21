@@ -129,6 +129,50 @@ async function renderFaqs() {
     `).join('');
 }
 
+// Render Features
+async function renderFeatures() {
+    const data = await loadJSON('/data/features.json');
+    if (!data) return;
+
+    const container = document.querySelector('.features-grid');
+    if (!container) return;
+
+    container.innerHTML = data.map(item => `
+        <div class="card feature-card">
+            <img src="${item.thumbnail}" alt="${item.gameTitle}" class="feature-thumbnail" loading="lazy">
+            <div class="feature-content">
+                <h3>${item.gameTitle}</h3>
+                <p class="feature-developer">by ${item.developer}</p>
+                <p class="feature-category">${item.category}</p>
+                <p class="feature-description">${item.description}</p>
+                <div class="feature-links">
+                    ${item.playLink ? `<a href="${item.playLink}" class="btn" target="_blank">Play Now</a>` : ''}
+                    ${item.downloadLink ? `<a href="${item.downloadLink}" class="btn secondary" target="_blank">Download</a>` : ''}
+                </div>
+            </div>
+        </div>
+    `).join('');
+}
+
+// Render Categories
+async function renderCategories() {
+    const data = await loadJSON('/data/categories.json');
+    if (!data) return;
+
+    const container = document.querySelector('.categories-grid');
+    if (!container) return;
+
+    container.innerHTML = data.map(item => `
+        <div class="card category-card">
+            <div class="category-icon">
+                <i class="fa-solid ${item.icon}"></i>
+            </div>
+            <h3>${item.categoryName}</h3>
+            <p>${item.description}</p>
+        </div>
+    `).join('');
+}
+
 // Mobile navigation toggle
 document.addEventListener('DOMContentLoaded', async function() {
     try {
@@ -163,6 +207,12 @@ document.addEventListener('DOMContentLoaded', async function() {
         }
         if (document.querySelector('.faq-container')) {
             await renderFaqs();
+        }
+        if (document.querySelector('.features-grid')) {
+            await renderFeatures();
+        }
+        if (document.querySelector('.categories-grid')) {
+            await renderCategories();
         }
     } catch (error) {
         console.error('Error loading page:', error);

@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "categoryName": "Best Overall Game",
+    "description": "Awarded to the game that demonstrates excellence across all aspects including gameplay, art, sound, and innovation.",
+    "icon": "fa-trophy"
+  },
+  {
+    "id": 2,
+    "categoryName": "Best Gameplay",
+    "description": "Recognizes games with the most engaging, fun, and well-designed gameplay mechanics.",
+    "icon": "fa-gamepad"
+  },
+  {
+    "id": 3,
+    "categoryName": "Best Art",
+    "description": "Awarded to games with outstanding visual design, art style, and graphical presentation.",
+    "icon": "fa-palette"
+  },
+  {
+    "id": 4,
+    "categoryName": "Most Innovative",
+    "description": "Recognizes games that push boundaries and introduce unique concepts or mechanics.",
+    "icon": "fa-lightbulb"
+  },
+  {
+    "id": 5,
+    "categoryName": "Best Sound Design",
+    "description": "Awarded to games with exceptional audio, music, and sound effects that enhance the experience.",
+    "icon": "fa-music"
+  },
+  {
+    "id": 6,
+    "categoryName": "Community Choice",
+    "description": "Voted by the community, this award goes to the fan-favorite game of the jam.",
+    "icon": "fa-heart"
+  }
+]

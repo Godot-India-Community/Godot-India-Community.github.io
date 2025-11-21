@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1,
+    "gameTitle": "Cosmic Adventure",
+    "developer": "Rahul Sharma",
+    "gameJam": "GIC Game Jam #1",
+    "category": "Best Overall Game",
+    "thumbnail": "https://via.placeholder.com/400x225/4782cc/ffffff?text=Cosmic+Adventure",
+    "description": "An exciting space exploration game with unique mechanics and stunning visuals.",
+    "downloadLink": "https://example.com/download",
+    "playLink": "https://example.com/play"
+  },
+  {
+    "id": 2,
+    "gameTitle": "Mystic Forest",
+    "developer": "Priya Patel",
+    "gameJam": "GIC Game Jam #1",
+    "category": "Best Art",
+    "thumbnail": "https://via.placeholder.com/400x225/2ecc71/ffffff?text=Mystic+Forest",
+    "description": "A beautiful puzzle-adventure game set in an enchanted forest.",
+    "downloadLink": "https://example.com/download",
+    "playLink": "https://example.com/play"
+  },
+  {
+    "id": 3,
+    "gameTitle": "Neon Racer",
+    "developer": "Amit Kumar",
+    "gameJam": "GIC Game Jam #2",
+    "category": "Best Gameplay",
+    "thumbnail": "https://via.placeholder.com/400x225/e74c3c/ffffff?text=Neon+Racer",
+    "description": "A high-speed racing game with neon aesthetics and smooth controls.",
+    "downloadLink": "https://example.com/download",
+    "playLink": "https://example.com/play"
+  },
+  {
+    "id": 4,
+    "gameTitle": "Puzzle Quest",
+    "developer": "Sneha Reddy",
+    "gameJam": "GIC Game Jam #2",
+    "category": "Most Innovative",
+    "thumbnail": "https://via.placeholder.com/400x225/9b59b6/ffffff?text=Puzzle+Quest",
+    "description": "An innovative puzzle game that combines mechanics in creative ways.",
+    "downloadLink": "https://example.com/download",
+    "playLink": "https://example.com/play"
+  }
+]
