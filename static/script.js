@@ -28,6 +28,33 @@ async function loadComponent(elementId, componentPath) {
     }
 }
 
+// Navigation slide functionality
+const navSlide = () => {
+    const burger = document.querySelector('.burger');
+    const nav = document.querySelector('.nav-links');
+    const navLinks = document.querySelectorAll('.nav-links li');
+
+    if (burger && nav && navLinks) {
+        burger.addEventListener('click', () => {
+            // Toggle Nav
+            nav.classList.toggle('nav-active');
+
+            // Animate Links
+            navLinks.forEach((link, index) => {
+                if (link.style.animation) {
+                    link.style.animation = '';
+                } else {
+                    link.style.animation = `navLinkFade 0.5s ease forwards ${index / 7 + 0.3}s`;
+                }
+            });
+
+            // Burger Animation
+            burger.classList.toggle('toggle');
+        });
+    }
+}
+
+
 // JSON data loader utility
 async function loadJSON(dataPath) {
     try {
@@ -173,24 +200,16 @@ async function renderCategories() {
     `).join('');
 }
 
-// Mobile navigation toggle
+// Main initialization
 document.addEventListener('DOMContentLoaded', async function() {
     try {
         showLoader();
 
-        // Load components
-        await loadComponent('nav-container', '/components/nav.html');
+        // Initialize navigation
+        navSlide();
+
+        // Load non-essential components
         await loadComponent('footer-container', '/components/footer.html');
-
-        // Mobile navigation toggle (must be after nav is loaded)
-        const navToggle = document.querySelector('.nav-toggle');
-        const navLinks = document.querySelector('.nav-links');
-
-        if (navToggle) {
-            navToggle.addEventListener('click', function() {
-                navLinks.classList.toggle('active');
-            });
-        }
 
         // Render dynamic content based on page
         if (document.querySelector('.grid')) {

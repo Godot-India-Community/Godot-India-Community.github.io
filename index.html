@@ -25,7 +25,7 @@
     <!-- Montserrat font -->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="icon" href="https://avatars.githubusercontent.com/u/70940225?s=200&v=4">
+    <link rel="icon" href="/static/images/logo.avif">
     <!-- Your main CSS -->
     <link rel="stylesheet" href="/static/style.css">
 </head>
@@ -36,7 +36,24 @@
         <div class="loader-spinner"></div>
     </div>
 
-    <div id="nav-container"></div>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="/static/images/logo.avif" alt="Godot India Community" class="logo-img">
+        </div>
+        <ul class="nav-links">
+            <li><a href="/">Home</a></li>
+            <li><a href="/features">Features</a></li>
+            <li><a href="/announcements">Noticeboard</a></li>
+            <li><a href="/roadmap">Roadmap</a></li>
+            <li><a href="/resources">Resources</a></li>
+            <li><a href="/faq">FAQ</a></li>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
 
 
     <section class="hero">
